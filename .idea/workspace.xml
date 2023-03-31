@@ -9,14 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f827696-14a6-4423-ae52-1789fd802b9e" name="Changes" comment="init: initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MySecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MySecurityInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MyWebInitializer.java" afterDir="false" />
+    <list default="true" id="5f827696-14a6-4423-ae52-1789fd802b9e" name="Changes" comment="feat: add view for all_employee and hr and managers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MySecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MySecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MySecurityInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MySecurityInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MyWebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/spring/security/configuration/MyWebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view_for_all_employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view_for_all_employees.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,9 @@
       <workItem from="1678776334633" duration="4095000" />
       <workItem from="1679983794957" duration="650000" />
       <workItem from="1680075675693" duration="3154000" />
-      <workItem from="1680084497230" duration="8035000" />
+      <workItem from="1680084497230" duration="10854000" />
+      <workItem from="1680155213493" duration="21129000" />
+      <workItem from="1680240615770" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="init: initial commit">
       <created>1678713680391</created>
@@ -169,7 +171,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678713680391</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add MyConfig, MyWebInitializer, MySecurityInitializer, MySecurityConfig through InMemoryUserDetailsManager">
+      <created>1680094598458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680094598458</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add MyConfig, MyWebInitializer, MySecurityInitializer, MySecurityConfig through InMemoryUserDetailsManager">
+      <created>1680094643772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680094643772</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add MyController">
+      <created>1680094691882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680094691882</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add view for all_employee and hr and managers">
+      <created>1680094725908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680094725908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +218,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init: initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init: initial commit" />
+    <MESSAGE value="feat: add MyConfig, MyWebInitializer, MySecurityInitializer, MySecurityConfig through InMemoryUserDetailsManager" />
+    <MESSAGE value="feat: add MyController" />
+    <MESSAGE value="feat: add view for all_employee and hr and managers" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add view for all_employee and hr and managers" />
   </component>
 </project>
